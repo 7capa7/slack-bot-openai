@@ -1,0 +1,24 @@
+{
+  "name": "slack-gpt",
+  "version": "0.0.1",
+  "description": "slack bot that allows channel user to ask openai a question",
+  "main": "src",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "patryk capanda",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
+}
